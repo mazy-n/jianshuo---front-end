@@ -1,0 +1,124 @@
+.main {
+	width: 50%;
+	min-width: 500px;
+	margin: auto;
+	margin-top: 40px;
+}
+#f-message>.box{
+	display: none;
+	padding: 0 20px 10px 0;
+	margin-bottom: 20px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	border-radius: 15px;
+	font-size: 14px;
+	-webkit-transition: all .5s;   
+    -moz-transition: all .5s;   
+    -ms-transition: all .5s;   
+    -o-transition: all .5s;   
+    transition: all .5s;
+}
+#f-message>.box:hover{
+	border-color: #3194D0;
+}
+#f-message>.box .name{
+	padding: 15px 0 5px 25px;
+	font-size: 20px;
+	border-bottom:1px dashed #EAEAEC ;
+	/*margin-bottom: 10px;*/
+}
+#f-message>.box .name a{
+	color: #329EEE;
+}
+#f-message>.box .name a:hover{
+	color: #187CB7;
+}
+#f-message>.box .f-content{
+	padding: 10px 20px 5px 25px;
+}
+#f-message>.box .f-content>p{
+	cursor: pointer;
+	word-wrap:break-word;  
+    word-break:break-all;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#f-message>.box .atr-date{
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #8B8B8B;
+}
+#f-message>.box .comments{
+	display: inline-block;
+	cursor: pointer;
+	float: right;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #8B8B8B;
+}
+#f-message>.box .comments:hover{
+	text-decoration: underline;
+}
+#f-message>.box hr{
+	background-color: #8B8B8B;
+}
+#f-message>.box .pl{
+	padding-left: 20px;
+	display: none;
+}
+.reviewArea{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.plBtn{
+	float: left;
+	margin-top: 5px;
+}
+.comment-show-con-list{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #8B8B8B;
+}
+.sqpl{
+	display: none;
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 20px;
+	color: #8B8B8B;
+	font-size: 12px;
+}
+#comments{
+	display: none;
+}
+.delete{
+	float: right;
+}
+.delete span{
+	display: none;
+}
+.delete span:hover{
+	
+	background-color: rgba(139,139,139,0.8);
+}
+#f-message>.box:hover .delete span{
+	text-align: center;
+	width: 15px;
+	height: 15px;
+	font-size: 10px;
+	line-height: 15px;
+	background-color: rgba(139,139,139,0.5);
+	cursor: pointer;
+	display: inline-block;
+
+} 
+.message-none{
+	display: none;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.message-none hr{
+    height: 2px;
+}

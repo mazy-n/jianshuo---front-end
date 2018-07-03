@@ -1,0 +1,93 @@
+.main{
+	position: relative;
+	width: 80%;
+	margin: auto;
+	margin-top: 25px;
+}
+.box{
+	display: none;
+	padding: 0 20px 20px 0;
+	float: left;
+	width: 35%;
+	min-width: 250px;
+	max-width: 380px;
+}
+.art{
+	/*width: auto;*/
+	
+	border: 1px solid #eee;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	border-radius: 15px;
+	font-size: 14px;
+	-webkit-transition: all .8s;   
+    -moz-transition: all .8s;   
+    -ms-transition: all .8s;   
+    -o-transition: all .8s;   
+    transition: all .8s;
+}
+.art:hover{
+	position: relative;
+	top: -5px;
+	left: -5px;
+	box-shadow: 8px 8px 8px rgba(0,0,0,.1);
+}
+.name{
+	padding: 15px 0 5px 25px;
+	font-size: 20px;
+	border-bottom:1px dashed #EAEAEC ;
+	/*margin-bottom: 10px;*/
+}
+.name a{
+	color: #329EEE;
+}
+.name a:hover{
+	color: #187CB7;
+}
+.content{
+	max-height: 200px;
+	padding: 10px 20px 15px 25px;
+	cursor: pointer;
+	/*margin-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 20px;*/
+}
+.content>p{
+	word-wrap:break-word;  
+    word-break:break-all;
+    overflow: hidden;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+}
+.comments-count{
+	border-top: 1px solid #eee;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.content:hover,.comments-count:hover{
+	background-color: #eee;
+}
+.comments{
+	background: url(../img/comment.png) no-repeat left center;
+	display: inline-block;
+    padding-left: 22px;
+    margin-right: 15px;
+    line-height: 22px;
+    color: #969696;
+}
+.atr-date{
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #8B8B8B;
+}
+.message-none{
+	display: none;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.message-none hr{
+    height: 2px;
+}

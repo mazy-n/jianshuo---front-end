@@ -1,0 +1,105 @@
+.main {
+	width: 50%;
+	min-width: 500px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.message-top>span {
+	font: bold 26px/50px "楷体";
+	color: #EC6149;
+}
+.xgBtn{
+	width: 75px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #339b53;
+	text-align: center;
+	display: block;
+	float: right;
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 6px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.xgBtn:hover{
+	background-color: #2f904d;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(234,111,90, 0.75), rgba(234,111,90, 0));
+}
+.message{
+	padding-left: 40px;
+	display: none;
+}
+.show-mes,.user-name{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.user-name p{
+	color: #EC6149;
+}
+.message span{
+	vertical-align: top;
+}
+.show-mes:first-of-type p{
+	color: #329EEE;
+}
+.message p{
+	display: inline-block;
+	/*border: 1px solid #666666;*/
+	word-wrap:break-word;  
+    word-break:break-all;
+    overflow: hidden;
+	width: 50%;
+	min-width: 100px;
+}
+.mes-save{
+	display: none;
+	height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(234,111,90,1);
+	width: 100px;
+	margin: 0 auto;
+}
+.mes-save:hover{
+	background-color: rgba(255,111,90,1);
+}
+.message textarea{
+	word-wrap:break-word;  
+    word-break:break-all;
+    overflow: hidden;
+	width: 50%;
+	min-width: 100px;
+	min-height: 100px;
+	border-radius: 5px;
+	resize: none;
+}
+.message input:focus,.message textarea:focus{
+	padding-left: 2px;
+	border: 2px solid #3194D0;
+}
+.guanzhu {
+	width: 100px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #339b53;
+	text-align: center;
+	display: block;
+	/*float: right;*/
+	color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+.guanzhu:hover{
+	background-color: #2f904d;
+}

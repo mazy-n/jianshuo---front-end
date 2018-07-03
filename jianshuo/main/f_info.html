@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简说 - 信息</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/top.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/dialog.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/info.css"/>
+		<script src="../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<nav class="navbar nav-default nav-fixed-top">
+			<div id="nav-content">
+				<!--左上方logo-->
+				<a class="logo" href="index.html">
+					<span>
+						简 说
+					</span>
+				</a>
+				<!--右上角-->
+				<a class="btn write-btn" href="write.html">
+					发表动态
+				</a>
+				<a id="btn-sign-up" class="btn sign-up" href="register.html">注册</a>
+				<a id="btn-log-in" class="btn log-in" href="login.html">登录</a>
+				<div class="contain">
+					<ul class="navbar-nav" id="nav-url">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+					</ul>
+				</div>
+				<div id="user" class="btn user-out">
+					<span></span>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="u_info.html">个人信息</a>
+						</li>
+						<li>
+							<a href="friend.html">关注列表</a>
+						</li>
+						<li>
+							<a id="exit" href="javascript:void(0);">退 出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="main">
+			<div class="message-top">
+				<span></span>
+				<hr />
+			</div>
+			<div class="message">
+				<form id="ad_mes" onsubmit="return false" method="post" accept-charset="UTF-8">
+					<div class="show-mes">
+						<span>&nbsp;&nbsp;&nbsp;昵称 ：</span>
+						<p>{{site.nickname}}</p>
+					</div>
+					<div class="show-mes">
+						<span>&nbsp;&nbsp;&nbsp;年龄 ：</span>
+						<p>{{site.age}}</p>
+					</div>
+					<div class="show-mes">
+						<span>&nbsp;&nbsp;&nbsp;性别 ：</span>
+						<p>{{site.sex}}</p>
+					</div>
+					<div class="show-mes">
+						<span>个性签名 ：</span>
+						<p>{{site.note}}</p>
+					</div>
+					<div class="show-mes">
+						<a href="javascript:;"></a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="../js/top.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/zepto.min.js"></script>
+		<script type="text/javascript" src="../js/dialog.min.js"></script>
+		<script src="../js/info.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

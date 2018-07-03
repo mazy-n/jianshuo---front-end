@@ -1,0 +1,51 @@
+.main{
+	width: 40%;
+	min-width: 100px;
+	margin: auto;
+	margin-top: 25px;
+}
+#f-list{
+	display: none;
+}
+.main ul{
+	margin-top: 20px;
+}
+.main li{
+	font-size: 18px;
+	padding: 20px 0 20px 30px;
+	border: 1px solid #C6C8CE;
+	margin-top: 10px;
+	border-radius: 10px;
+	-webkit-transition: all .5s;   
+    -moz-transition: all .5s;   
+    -ms-transition: all .5s;   
+    -o-transition: all .5s;   
+    transition: all .5s;
+}
+.main li:hover{
+	border-color: #3194D0;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.main li a{
+	color: #329EEE;
+}
+.main li a:hover{
+	color: #187CB7;
+}
+.message-top>span {
+	font: bold 26px/50px "楷体";
+	color: #EC6149;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(234,111,90, 0.75), rgba(234,111,90, 0));
+}
+.message-none{
+	display: none;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.message-none hr{
+    height: 2px;
+}

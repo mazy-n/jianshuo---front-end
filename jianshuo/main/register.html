@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册 - 简说</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/sign.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/dialog.css"/>
+	</head>
+	<body>
+		<div class="sign">
+			<div class="sign-logo">
+				<a class="logo" href="index.html">
+					<span>
+						简 说
+					</span>
+				</a>
+			</div>
+			<div class="main">
+				<h4 class="title">
+					<div class="normal-title">
+						<a href="login.html">登录</a>
+						<b>·</b>
+						<a href="register.html" class="active">注册</a>
+					</div>
+				</h4>
+				<div class="log-in-container">
+					<form id="new_session" onsubmit="return false" method="post" accept-charset="UTF-8">
+						<div class="input-prepend restyle js-normal">
+					        <input placeholder="用户名(字母开头的4~10个字符)" type="text" name="session[user_number]" id="session_user_number">
+					    </div>
+					    <div class="input-prepend restyle js-normal">
+					        <input placeholder="手机号" type="text" name="session[mobile_number]" id="session_mobile_number">
+					    </div>
+					    <div class="input-prepend">
+					      <input placeholder="设置密码" type="password" name="session[password]" id="session_password">
+					    </div>
+					    <button class="sign-up-button" id="sign-up-form-submit-btn" type="button">
+					      	注册
+					    </button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="../js/zepto.min.js"></script>
+		<script type="text/javascript" src="../js/dialog.min.js"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

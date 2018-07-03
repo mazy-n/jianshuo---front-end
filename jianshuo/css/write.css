@@ -1,0 +1,17 @@
+.write-content{
+	width: 50%;
+	height: 200px;
+	margin: auto;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.flex-text-wrap,pre{
+	min-height: 150px;
+	
+}
+.plBtn{
+	background-color: rgb(255,120,90);
+}
+.plBtn:hover{
+	background-color: rgb(234,111,90);
+}
